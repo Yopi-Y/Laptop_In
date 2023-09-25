@@ -1,0 +1,51 @@
+.banner {
+  height: 500px;
+  background: url(../img/banner2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: 10px solid aqua;
+  border-bottom: 10px solid aqua;
+}
+.highlighted-kategori {
+  height: 300px;
+}
+.hp-acer {
+  background: url(../img/popular/porsche_acer_book.png);
+  background-size: cover;
+  background-position: center;
+}
+.hp-asus {
+  background: url(../img/popular/zenbook14x_oled.png);
+  background-size: cover;
+  background-position: center;
+}
+.hp-lenovo {
+  background: url(../img/popular/yoga_slimi7.png);
+  background-size: cover;
+  background-position: center;
+}
+.bagr {
+  font-weight: bold;
+  text-align: center;
+}
+.bagr2 {
+  background-color: aqua;
+}
+.kategori-link {
+  text-decoration: none;
+}
+.kategori-link:hover {
+  font-weight: bold;
+}
+.image-box img {
+  height: 100%;
+  width: 100%;
+}
+p#harga-produk {
+  font-size: 100px;
+}
+.text-harga {
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+}
