@@ -2,10 +2,10 @@
 // Koneksi Database
 // Properti koneksi
 
-$namaserver = 'localhost';
-$username = 'root';
+$namaserver = '';
+$username = '';
 $password = '';
-$database = 'db_laptopin';
+$database = '';
 
 // Function Koneksi
 function koneksi($nama, $user, $pass, $db){
@@ -21,4 +21,3 @@ if ($con -> connect_error) {
   echo "Gagal Koneksi Ke Database : " . $con -> connect_error;
   exit();
 }
-?>
